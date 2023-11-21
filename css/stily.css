@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    
+}
+
+.header {
+    background-image: url(.//image/bg\ 1\ \(3\).png);
+    background-size: cover;
+    height: 5300px;
+    
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 0px 15px;
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
+
+.text-imege {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 86px;
+    font-size: 38px;
+    display: flex;
+
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+}
+
+.text-imege:last-child {
+    margin-right: 0;
+}
+.text-imege:hover {
+    color: green;
+}
+.title {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    width: 1114px;
+    height: 192px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 146px;
+}
+
+.subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    width: 514px;
+    height: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+    line-height: 44px;
+}
+.background {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+    border: 4px solid #8D8D8D;
+    background: #E9E9E9;
+    width: 447px;
+    height: 64px;
+    margin-top: 48px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.background2 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    width: 261px;
+    height: 66px;
+    border-radius: 25px;
+    border: 2px solid #476443;
+    background: #5B89CE;
+    margin-top: 46px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+h1 {
+    color: #fff;
+    margin-left: 50px;
+    font-size: 29px;
+}
+h3 {
+    color:  rgb(0, 128, 113);
+    font-size: 24px;
+    margin-left: 50px;
+}
+ p {
+    color: #fff;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 21px;
+}
+h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.red {
+    color: aqua;
+    font-size: 20px; 
+
+}
+.green {
+    color: aqua;
+    font-size: 20px; 
+}
+.blou {
+    color: aqua; 
+    font-size: 20px; 
+}
+
+.yelow {
+    color: aqua; 
+    font-size: 20px;
+}
+.president {
+    color: rgb(180, 229, 3);
+    font-size: 25px
+}
+h3 {
+    color: yellow;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
